@@ -6,7 +6,7 @@ System.out.println("OK, now I know enough.");
 boolean finished = false;
 while (!finished) {
     System.out.println();
-    System.out.println("What would you like to do?");
+    System.out.println("Whatmwould you like to try to do?");
     System.out.println("   1 - Exchange pounds into euro");
     System.out.println("   2 - Exchange euro into pounds");
     System.out.println("   0 - Exit the program");
