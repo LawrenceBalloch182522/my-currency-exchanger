@@ -15,13 +15,13 @@ while (!finished) {
     int choice = Integer.parseInt(System.console().readLine());
     switch (choice) {
     case 1:
-	  System.out.print("How many pounds would you like to convert? ");
+	  System.out.print("How many pounds would you like to convert to euro? ");
 	  double pounds = Double.parseDouble(System.console().readLine());
 	  double euro   = pounds * euroOverPoundRatio;
 	  System.out.println("£" + pounds + " will give you " + euro + "€");
 	  break;
     case 2: 
-	  System.out.print("How many euro would you like to convert? ");
+	  System.out.print("How many euro would you like to convert to pounds? ");
 	  euro   = Double.parseDouble(System.console().readLine());
 	  pounds = euro * poundOverEuroRatio;
 	  System.out.println(euro + "€ will give you £" + pounds);
